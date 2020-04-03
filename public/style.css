@@ -24,6 +24,7 @@ div #carouselContainer {
   right: 0;
   overflow: auto;
   background-color: white;
+  z-index: 1;
 }
 
 #carouselExitButton {
@@ -124,6 +125,7 @@ div #carouselContainer {
   transition: .35s ease-in-out;
 }
 
+
 #hardcodePhoto1 {
   height: 790px;
   width: 858px;
@@ -182,9 +184,9 @@ div #carouselContainer {
 
 #reservationParent {
   position: absolute;
-  top: 800px;
+  top: 625px;
   right: 200px;
-  height: 115.8%;
+  height: 137.75%;
 }
 
 #reservation {
@@ -314,6 +316,23 @@ span .item {
 .guestButton, .closeButton, .goRight, .checkOutButton {
 float: right;
 }
+
+#adultMinus {
+  margin: auto 1.25px auto auto;
+}
+
+#adultPlus {
+  margin: auto 5px auto auto;
+}
+
+td.guestNumbers {
+  padding: 0 0 0 10px;
+}
+
+.closeButton {
+  position: absolute;
+  margin: -18px 0 0 148px;
+}
 .unavailableDay {
   border-style: solid;
   border-color: rgb(113, 116, 101);
@@ -379,8 +398,16 @@ td {
 
 .checkOutButton {
   position: relative;
-  }
+}
 
+div.calendarFrame {
+  z-index: 5;
+}
+
+div#guestsDropdown {
+  z-index: 4;
+  border: 1px solid #e7e5e5;
+}
 
   .calendarBoard {
     border-collapse: collapse;
@@ -392,6 +419,7 @@ td {
   }
   .text {
     font: Circular;
+    margin: 10px 0;
   }
 
   .priceBreakup {
@@ -407,11 +435,9 @@ td {
     border-style: solid;
     border: 1px solid transparent;
     border-radius: 5px;
-
-
-
   }
-  .guestsFrame {
+
+  div.guestsFrame {
     height: 20px;
     background-color: white;
     border-style: solid;
