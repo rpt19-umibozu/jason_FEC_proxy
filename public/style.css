@@ -140,36 +140,36 @@ div #carouselContainer {
 }
 
 #afterReviews1 {
-  height: 750px;
-  width: 550px;
+  height: 850px;
+  width: 600px;
   margin: 60px 20px 60px 80px;
-}
-
-#afterReviews2Parent {
-  position: absolute;
-  top: 3300px;
-  right: 115px;
-  height: 174.5%;
+  float: left;
 }
 
 #reviews {
-  margin: 40px;
+  margin: 0 40px;
 }
 
-
 #afterReviews2 {
-  position: sticky;
-  top: 10px;
-  left: 500px;
-  height: 600px;
+  height: 600;
   width: 500px;
+  margin: 0 10px 25px 120px;
 }
 
 #afterReviews3 {
-  position: relative;
-  height: 500px;
-  width: 680px;
-  margin: 50px;
+  height: 425px;
+  width: 500px;
+  margin: 5px 0 0 117px;
+}
+
+.priceBreakupTd {
+  width: 250px;
+  padding: 0 10px;
+}
+
+.priceBreakupTd2 {
+  width: 100px;
+  padding: 0 10px;
 }
 
 .photoContainer {
@@ -183,8 +183,8 @@ div #carouselContainer {
 #reservationParent {
   position: absolute;
   top: 800px;
-  right: 215px;
-  height: 160%;
+  right: 200px;
+  height: 115.8%;
 }
 
 #reservation {
@@ -286,7 +286,7 @@ span .item {
   border-style: solid;
   border-width: 1px;
   margin: 10px;
-  border-color: rgb(113, 116, 101);
+  border-color: #e7e5e5 !important;
   padding: 10px;
   padding-right: 5%;
   text-align: left;
@@ -294,6 +294,8 @@ span .item {
   border-radius: 1px;
   height: 350px;
   z-index: 2;
+  box-shadow: 0.1px 0.1px 1px #888888;
+  border-radius: 1px !important;
 }
 
 .dateFrame {
@@ -338,6 +340,16 @@ float: right;
 
 }
 
+tr {
+  height: 20px;
+  width: 20px;
+}
+
+td {
+  height: 20px;
+  width: 20px;
+}
+
 .availableDay:hover {
   background-color: rgb(38, 198, 204);
   border: 1px solid rgb(38, 171, 204);
@@ -345,6 +357,21 @@ float: right;
 
 .reserveButton {
   float: center;
+  border-color:#888888 !important;
+  box-shadow: 0.5px 0.5px 5px #888888;
+  border-radius: 1px !important;
+  height: 35px;
+  width: 250px;
+  position: relative;
+  background-color: rgba(255, 0, 0, 0.75);
+  font-weight: bold;
+  color: white;
+}
+
+#underReserve {
+  font-size: .75em;
+  margin: 15px 0 0 60px;
+  font-family: sans-serif;
 }
 .checkInButton, .goLeft {
   float: left;
