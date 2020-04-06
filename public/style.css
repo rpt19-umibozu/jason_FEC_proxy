@@ -13,6 +13,13 @@
   border-radius: 5px;
 }
 
+#reservationParent {
+  position: absolute;
+  top: 625px;
+  right: 200px;
+  height: 137.75%;
+}
+
 #reservation {
   position: sticky;
   top: 0;
@@ -41,12 +48,6 @@ td.guestNumbers {
   padding: 0 0 0 10px;
 }
 
-#reservationParent {
-  position: absolute;
-  top: 625px;
-  right: 200px;
-  height: 137.75%;
-}
 
 Button.reserveButton {
   float: center;
@@ -111,7 +112,11 @@ Button#adultMinus {
 }
 
 #afterReviews4 {
-  height: 650px;
-  width: 90%;
-  margin: 0 40px 0 120px;
+  height: 600px;
+  width: 85%;
+  margin: 0 40px 0 150px;
+}
+
+.guestsFrame {
+  border-color: rgba(0, 0, 0, 0.5);
 }
