@@ -17,7 +17,7 @@
   position: absolute;
   top: 625px;
   right: 200px;
-  height: 137.75%;
+  height: 136.75%;
 }
 
 #reservation {
@@ -81,7 +81,7 @@ div.text {
 }
 
 div.underReserve {
-  margin: 15px 50px;
+  margin: 10px 50px 100px 50px;
 }
 
 Button#adultMinus {
@@ -93,20 +93,20 @@ Button#adultMinus {
 }
 
 #afterReviews1 {
-  height: 850px;
+  height: 800px;
   width: 600px;
   margin: 90px 20px 60px 80px;
   float: left;
 }
 
 #afterReviews2 {
-  height: 600px;
+  height: 550px;
   width: 500px;
   margin: 0 10px 25px 120px;
 }
 
 #afterReviews3 {
-  height: 425px;
+  height: 375px;
   width: 500px;
   margin: 5px 0 0 117px;
 }
