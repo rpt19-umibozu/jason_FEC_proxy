@@ -26,7 +26,7 @@
   left: 0;
 }
 
-div #carouselContainer {
+div#carouselContainer {
   position: fixed;
   top: 0;
   left: 0;
@@ -34,7 +34,7 @@ div #carouselContainer {
   right: 0;
   overflow: auto;
   background-color: white;
-  z-index: 1;
+  z-index: 5;
 }
 
 div#guestsDropdown {
@@ -119,4 +119,9 @@ Button#adultMinus {
 
 .guestsFrame {
   border-color: rgba(0, 0, 0, 0.5);
+}
+
+#recommendations {
+  position: relative;
+  z-index: -1;
 }
