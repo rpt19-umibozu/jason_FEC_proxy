@@ -121,10 +121,10 @@ Button#adultMinus {
   border-color: rgba(0, 0, 0, 0.5);
 }
 
-/* div #PhotoService {
-  position: relative;
+div #PhotoService {
+  position: absolute;
   z-index: 2;
-} */
+}
 
 #recommendations {
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
@@ -136,7 +136,7 @@ Button#adultMinus {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-left: 30px;
-  position: fixed;
+  position: absolute;
   z-index: -1;
 }
 
