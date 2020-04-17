@@ -34,7 +34,7 @@ div #carouselContainer {
   right: 0;
   overflow: auto;
   background-color: white;
-  z-index: 3;
+  z-index: 5;
 }
 
 div#guestsDropdown {
