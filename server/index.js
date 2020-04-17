@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 3000;
 const bodyParser = require('body-parser');
-const fullPath = '/home/ubuntu/jason_FEC_proxy/public/index.html';
+const fullPath = '/home/ubuntu/jason_FEC_proxy/public/';
 
 
 app.use(bodyParser.json());
