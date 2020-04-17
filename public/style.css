@@ -122,6 +122,7 @@ Button#adultMinus {
 }
 
 div #PhotoService {
+  position: relative;
   z-index: 2;
 }
 
