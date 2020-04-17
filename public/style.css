@@ -37,6 +37,11 @@ div #carouselContainer {
   z-index: 5;
 }
 
+#recommendations {
+  position: relative;
+  z-index: -1;
+}
+
 div#guestsDropdown {
   z-index: 4;
   border: 1px solid #e7e5e5;
