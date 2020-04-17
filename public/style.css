@@ -114,7 +114,7 @@ Button#adultMinus {
 #afterReviews4 {
   height: 600px;
   width: 85%;
-  margin: -95px 40px 0 150px;
+  margin: 100px 40px 0 150px;
 }
 
 .guestsFrame {
@@ -378,8 +378,8 @@ div #PhotoService {
   position: absolute;
   height: 350px;
   width: 948px;
-  top: 4128px;
-  left: 200px;
+  top: 78px;
+  left: 55px;
   overflow: hidden;
 }
 
