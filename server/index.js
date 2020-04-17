@@ -13,10 +13,11 @@ app.use(function(req, res, next) {
 });
 
 app.use(express.static(__dirname + '/../public'));
+app.use('/:id', express.static(__dirname + '/../public'));
 
-app.get('/:id', (req, res) => {
-  res.sendFile(fullPath);
-});
+// app.get('/:id', (req, res) => {
+//   res.sendFile(fullPath);
+// });
 
 app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
