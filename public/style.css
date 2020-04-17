@@ -37,11 +37,6 @@ div #carouselContainer {
   z-index: 5;
 }
 
-#recommendations {
-  position: relative;
-  z-index: -1;
-}
-
 div#guestsDropdown {
   z-index: 4;
   border: 1px solid #e7e5e5;
@@ -131,7 +126,7 @@ div #PhotoService {
   z-index: 2;
 }
 
-div #recommendations {
+#recommendations {
   font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
   font-size: 14px;
   line-height: 1.43;
