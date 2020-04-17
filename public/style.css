@@ -136,7 +136,6 @@ div #recommendations {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-left: 30px;
-  position: relative;
   z-index: -1;
 }
 
