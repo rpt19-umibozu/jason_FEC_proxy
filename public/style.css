@@ -132,7 +132,7 @@ div #PhotoService {
   line-height: 1.43;
   color: #484848;
   background-color: #fff;
-  margin: 100px;
+  margin: 0 100px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   padding-left: 30px;
