@@ -128,13 +128,13 @@ div #PhotoService {
 
 #recommendations #listingContainer {
   border: 1px;
-  /* position: absolute; */
+  /* position: relative; */
   height: 350px;
   width: 948px;
   top: 3500px !important;
   left: 232.5px !important;
   overflow: hidden;
-  display: flex;
+  display: contents;
 }
 
 #reviews #Hardcode1 {
