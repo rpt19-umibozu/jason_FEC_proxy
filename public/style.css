@@ -128,16 +128,12 @@ div #PhotoService {
 
 #recommendations #listingContainer {
   border: 1px;
-  flex: 1;
+  position: relative;
   height: 350px;
   width: 948px;
-  /* top: 4080px !important; */
-  /* left: 202.5px !important; */
+  top: 4080px !important;
+  left: 202.5px !important;
   overflow: hidden;
-}
-
-#recommendationsParent {
-  display: flex;
 }
 
 #reviews #Hardcode1 {
