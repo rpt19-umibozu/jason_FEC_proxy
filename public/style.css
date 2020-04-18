@@ -128,7 +128,7 @@ div #PhotoService {
 
 #recommendations #listingContainer {
   border: 1px;
-  position: absolute;
+  /* position: absolute; */
   height: 350px;
   width: 948px;
   top: 4080px !important;
