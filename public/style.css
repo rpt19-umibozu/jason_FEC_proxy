@@ -128,10 +128,10 @@ div #PhotoService {
 
 #recommendations #listingContainer {
   border: 1px;
-  position: absolute;
+  position: sticky;
   height: 350px;
   width: 948px;
-  top: 3400px !important;
+  top: 3407.5px !important;
   left: 202.5px !important;
   overflow: hidden;
 }
