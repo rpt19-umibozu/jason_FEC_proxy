@@ -136,6 +136,10 @@ div #PhotoService {
   overflow: hidden;
 }
 
+#recommendationsParent {
+  position: relative;
+}
+
 #reviews #Hardcode1 {
   display: none;
 }
