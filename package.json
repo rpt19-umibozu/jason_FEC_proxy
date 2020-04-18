@@ -11,7 +11,13 @@
     "server": "nodemon server/index.js"
   },
   "dependencies": {
-    "nodemon": "^2.0.3"
+    "brotli-webpack-plugin": "^1.1.0",
+    "express-static-gzip": "^2.0.6",
+    "nodemon": "^2.0.3",
+    "path": "^0.12.7",
+    "terser-webpack-plugin": "^2.3.5",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
   },
   "devDependencies": {
     "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor",
