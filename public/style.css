@@ -189,9 +189,10 @@ div.listing {
 }
 
 #recommendations #leftScroll {
-  margin-top: -80px;
+  margin-top: -90px;
+  margin-right: 30px;
 }
 
 #recommendations #rightScroll {
-  margin-top: -80px;
+  margin-top: -90px;
 }
