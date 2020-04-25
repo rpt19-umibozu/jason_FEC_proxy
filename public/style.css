@@ -1,4 +1,4 @@
-/* HTML5 display-role reset for older browsers
+HTML5 display-role reset for older browsers
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -24,7 +24,7 @@ table {
 
 @-ms-viewport{
   width: device-width;
-} */
+}
 
 .priceBreakup {
   z-index: 1;
@@ -188,6 +188,10 @@ div.listing {
   display: none;
 }
 
-#leftScroll #rightScroll {
+#recommendations #leftScroll {
+  margin-top: -500px;
+}
+
+#recommendations #rightScroll {
   margin-top: -500px;
 }
