@@ -187,3 +187,7 @@ div.listing {
 #reviews #Hardcode3 {
   display: none;
 }
+
+#leftScroll #rightScroll {
+  margin-top: -500px;
+}
