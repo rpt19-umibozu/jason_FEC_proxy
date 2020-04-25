@@ -172,9 +172,9 @@ div #PhotoService {
   overflow: hidden;
 }
 
-div.listing {
+/* div.listing {
   position: absolute;
-}
+} */
 
 #reviews #Hardcode1 {
   display: none;
